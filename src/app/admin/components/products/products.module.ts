@@ -7,6 +7,7 @@ import { CreateComponent } from './create/create.component';
 import { ListComponent } from './list/list.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -23,7 +24,8 @@ import {MatInputModule} from '@angular/material/input';
     ]),
     MatSidenavModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonModule
   ]
 })
 export class ProductsModule { }

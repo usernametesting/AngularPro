@@ -1,14 +1,8 @@
 <mat-form-field>
-    <mat-label>Name</mat-label>
-    <input matInput>
-  </mat-form-field>
+  <mat-label>Name</mat-label>
+  <input matInput #txtName>
+</mat-form-field>
 
-  <mat-form-field>
-    <mat-label>Name</mat-label>
-    <input matInput>
-  </mat-form-field>
 
-  <mat-form-field>
-    <mat-label>Name</mat-label>
-    <input matInput>
-  </mat-form-field>
+
+<button class="btn" mat-flat-button color="accent" (click)="createProduct(txtName)">Add</button>
